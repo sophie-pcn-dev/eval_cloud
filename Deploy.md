@@ -20,6 +20,13 @@ Utilisation du fichier de configuration "ci.yaml" dans le dossier "workflows" du
 - Création d'un compte Scalingo
 - Création d'une application sur Scalingo
 - Liaison à un repository github
+- Ajout des variables d’environnement APP_ENV et APP_SECRET (code aléatoire à générer "bin2hex(random_bytes(16))") sur Scalingo
+- Mise en ligne via le push des commits 'git push'
 - Activer le déploiement automatique sur Scalingo
 - Déclenchement manuel du déploiement
 - Vérification de l'accessibilité au site en ligne via "https://projet-cloud-sp.osc-fr1.scalingo.io/"
+
+# .env
+
+APP_ENV =prod
+APP_SECRET=
